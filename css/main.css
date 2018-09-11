@@ -1,0 +1,117 @@
+html {
+  box-sizing: border-box;
+}
+
+
+/* general styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+body > .container {
+ max-width: 960px;
+ margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* header styles */
+.page-header {
+  display: flex;
+  padding: 1em;
+  border-bottom: 3px solid #2fa8cc;
+  margin-bottom: 1.5em;
+}
+
+.page-header .title {
+  font-size: 2em;
+  font-weight: 400;
+  margin: 0 0 0 auto;
+  text-align: right;
+}
+
+.page-header .title .description {
+  display: block;
+  font-size: 0.5em;
+  font-weight: 400;
+}
+
+/* banner styles */
+.banner {
+  position: relative;
+  overflow: hidden;
+}
+
+/* portfolio section styles */
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio .header {
+  color: #2ee0d9;
+  font-size: 1.5em;
+  margin: 1em 5px 0.5em;
+  width: 100%;
+  font-weight: 800;
+}
+
+.portfolio-item {
+  text-align: center;
+  color: #7d97ad;
+  margin-bottom: 1.5em;
+  font-weight: 900;
+}
+
+.portfolio-item .title {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin: 0.3em 0;
+}
+
+.portfolio-item .link {
+  font-size: 0.8em;
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* footer styles */
+.footer {
+  display: flex;
+  width: 80%;
+  max-width: 350px;
+  flex-wrap: wrap;
+  background-color: #7d97ad;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  padding: 1em;
+  margin: 100px auto 50px;
+  border: 20px solid white;
+  box-shadow: 0 0 0 1px ;
+}
+
+
+.footer .purpose {
+  font-size: 0.7em;
+}
+
+.footer a {
+  color: inherit;
+}
+
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  width: 2em;
+  margin-left: 1em;
+  color: #271e35;
+}
+  

@@ -1,0 +1,18 @@
+ @media screen and (max-width: 600px){
+
+.footer .purpose {
+  font-size: 0.65em;
+}
+.title {
+	font-size: 1em;
+}
+
+.portfolio .header  {
+	font-size: 1em;
+
+}
+
+.portfolio-item .title {
+	font-size: 1em;
+}
+}
